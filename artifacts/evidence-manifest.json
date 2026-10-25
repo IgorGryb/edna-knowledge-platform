@@ -1,0 +1,28 @@
+{
+  "project_id": "PRJ-EDNA-PROTOTYPE",
+  "generated": "2026-10-25",
+  "data_class": "approved-local-subset",
+  "artifacts": [
+    {
+      "artifact_id": "ART-D51703092B1E",
+      "path": "artifacts/results.json",
+      "sha256": "fc08d9d1ce3a3e0e2d739cce0cfb4130a5a22ec4db8e6ee9ea4196aa25ee4f55",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    },
+    {
+      "artifact_id": "ART-5C7D7975BE4B",
+      "path": "artifacts/retrieval-demo.json",
+      "sha256": "74bc67c256b1a63463aab2e65824787ff0e0ffd43a4a6d03c06186d9a8631195",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    },
+    {
+      "artifact_id": "ART-2E76F6F3A493",
+      "path": "data/corpus.json",
+      "sha256": "dbd6914d7e040ea466f65bfa7ef72e54c10416e619d24611a6776ee8cce1a7e1",
+      "validation_status": "tested",
+      "reproduce_command": "make reproduce"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "portfolio risk scenario": {
+    "answer": "Arctervix contains research on portfolio construction quantitative finance structured finance risk and real options. Executable models require validation.",
+    "citations": [
+      {
+        "source_id": "SRC-ARCTERVIX",
+        "path": "1. Portfolio/Arctervix Research/PROJECT-RECORD.md"
+      }
+    ],
+    "score": 0.5059644256269407
+  },
+  "booking payment state": {
+    "answer": "Hobbly describes marketplace booking CRM payment flows and product economics. Production payment integration and users were not confirmed.",
+    "citations": [
+      {
+        "source_id": "SRC-HOBBLY",
+        "path": "1. Portfolio/Hobbly Payments/PROJECT-RECORD.md"
+      }
+    ],
+    "score": 0.3692744729379982
+  },
+  "industrial maintenance option": {
+    "answer": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Client deployment is not confirmed.",
+    "citations": [
+      {
+        "source_id": "SRC-ARXA",
+        "path": "1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md"
+      }
+    ],
+    "score": 0.2721655269759087
+  }
+}
