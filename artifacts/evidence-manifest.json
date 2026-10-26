@@ -6,14 +6,14 @@
     {
       "artifact_id": "ART-D51703092B1E",
       "path": "artifacts/results.json",
-      "sha256": "fc08d9d1ce3a3e0e2d739cce0cfb4130a5a22ec4db8e6ee9ea4196aa25ee4f55",
+      "sha256": "71858a4938d79cf722e7c298afe60e32503958ff617a3967d72c3ad786ef30b4",
       "validation_status": "tested",
       "reproduce_command": "make reproduce"
     },
     {
       "artifact_id": "ART-5C7D7975BE4B",
       "path": "artifacts/retrieval-demo.json",
-      "sha256": "74bc67c256b1a63463aab2e65824787ff0e0ffd43a4a6d03c06186d9a8631195",
+      "sha256": "b51403a751163b44afcb8131347f1823d319dd6394d0515323e7e43b37c09dab",
       "validation_status": "tested",
       "reproduce_command": "make reproduce"
     },

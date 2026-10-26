@@ -4,29 +4,35 @@
     "citations": [
       {
         "source_id": "SRC-ARCTERVIX",
-        "path": "1. Portfolio/Arctervix Research/PROJECT-RECORD.md"
+        "path": "1. Portfolio/Arctervix Research/PROJECT-RECORD.md",
+        "excerpt_sha256": "1f081c36caec701902fde669e9e7a0fb099be46db28233331d4d88e807bc4e23"
       }
     ],
-    "score": 0.5059644256269407
+    "score": 0.5059644256269407,
+    "support_scope": "exact extract from curated summary, not verified original-document quotation"
   },
   "booking payment state": {
     "answer": "Hobbly describes marketplace booking CRM payment flows and product economics. Production payment integration and users were not confirmed.",
     "citations": [
       {
         "source_id": "SRC-HOBBLY",
-        "path": "1. Portfolio/Hobbly Payments/PROJECT-RECORD.md"
+        "path": "1. Portfolio/Hobbly Payments/PROJECT-RECORD.md",
+        "excerpt_sha256": "888adf54701d05d3c3ec8c482b5199172819bb01ff8bc89b65c4a237d7bc652a"
       }
     ],
-    "score": 0.3692744729379982
+    "score": 0.3692744729379982,
+    "support_scope": "exact extract from curated summary, not verified original-document quotation"
   },
   "industrial maintenance option": {
     "answer": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Client deployment is not confirmed.",
     "citations": [
       {
         "source_id": "SRC-ARXA",
-        "path": "1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md"
+        "path": "1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md",
+        "excerpt_sha256": "d099a9f34122c2a2bb4566d8a51808e31670421e96e857c0fc7e39b12a49ae9f"
       }
     ],
-    "score": 0.2721655269759087
+    "score": 0.2721655269759087,
+    "support_scope": "exact extract from curated summary, not verified original-document quotation"
   }
 }

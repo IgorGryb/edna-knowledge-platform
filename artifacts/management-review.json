@@ -1,0 +1,57 @@
+{
+  "id": "EDNA-MANAGEMENT-REVIEW-001",
+  "data_status": "curated-fixture-and-synthetic-costs",
+  "lexical": {
+    "hit_at_1": 0.8,
+    "hit_at_3": 1.0,
+    "mrr": 0.9,
+    "ranks": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "citation_coverage": 0.8,
+    "exact_summary_support_rate": 0.8,
+    "support_scope": "curated fixture summaries; original documents require separate review"
+  },
+  "concept_proxy": {
+    "hit_at_1": 0.8,
+    "hit_at_3": 1.0,
+    "mrr": 0.9,
+    "ranks": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "citation_coverage": 1.0,
+    "exact_summary_support_rate": 1.0,
+    "support_scope": "curated fixture summaries; original documents require separate review"
+  },
+  "negative_checks": {
+    "empty": true,
+    "unknown": true,
+    "withdrawn": true,
+    "conflict": true
+  },
+  "costs": {
+    "manual": 60.0,
+    "base": 42.0,
+    "negative": 87.0,
+    "review_break_even_minutes": 33.0,
+    "unit": "EUR/accepted note"
+  },
+  "source_hashes": {
+    "src/edna/core.py": "51bbef7bd39bcda03f2515abbd1e4c65b8480ef25e6897f5bda75bf16c2d6175",
+    "00. ARCHIVE SYSTEM/portfolio/MANAGEMENT-VALIDATION-CASES.yaml": "e8e011e4a139e8dffd5dfd1743f8f4e045f650a06879b8b2e83c18de44fc5652"
+  },
+  "limitations": [
+    "Not a semantic embedding benchmark",
+    "Citation existence is not factual accuracy",
+    "Review time assumed, not measured",
+    "Registered contradictions only"
+  ]
+}
