@@ -43,3 +43,9 @@ A high hit rate on a tiny golden set does not establish answer correctness or ge
 Expand evaluation to citation support and contradiction handling before proposing service scale.
 
 [Full management dossier](MANAGEMENT-DOSSIER.md)
+
+## Technical and cross-domain foundation
+
+This design preserves the technical, product, operating and financial strands together. Candidate connections: Evidence infrastructure for capital and research decisions; Management metrics backed by financial and data controls; Advanced technical options with explicit activation conditions.
+
+The full dossier states the source programs, mechanisms, integration risks and comparison tests. These are development options, not established synergistic returns.
