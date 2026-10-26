@@ -4,7 +4,7 @@
 
 **Choice:** I selected a narrow vertical slice with an explicit baseline and falsification criterion instead of treating existing documentation as implementation evidence.
 
-**Execution:** TF-IDF cosine retrieval plus a deterministic concept-expansion layer, evaluated with hit@1, hit@3, reciprocal rank, citation coverage and an abstention test.
+**Execution:** Term-frequency cosine retrieval with deterministic concept expansion; measured fixture ranking and summary-citation support, not neural semantic retrieval or original-source truth verification.
 
 **Mistake risk:** the fixture can overstate generality. I address that by labeling provenance, keeping alternative explanations and separating technical from external validation.
 

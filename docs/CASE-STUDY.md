@@ -12,7 +12,7 @@ I reduced a broad platform concept to one falsifiable vertical slice and selecte
 
 ## Implementation
 
-TF-IDF cosine retrieval plus a deterministic concept-expansion layer, evaluated with hit@1, hit@3, reciprocal rank, citation coverage and an abstention test.
+Term-frequency cosine retrieval with deterministic concept expansion; measured fixture ranking and summary-citation support, not neural semantic retrieval or original-source truth verification.
 
 ## Validation
 

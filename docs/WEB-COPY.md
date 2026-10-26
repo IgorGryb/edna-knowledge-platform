@@ -4,7 +4,7 @@
 
 Can a small, approved local corpus answer control questions with traceable citations and abstain when the corpus does not support an answer?
 
-The project turns a broad platform concept into one deterministic vertical slice. TF-IDF cosine retrieval plus a deterministic concept-expansion layer, evaluated with hit@1, hit@3, reciprocal rank, citation coverage and an abstention test.
+The project turns a broad platform concept into one deterministic vertical slice. Term-frequency cosine retrieval with deterministic concept expansion; measured fixture ranking and summary-citation support, not neural semantic retrieval or original-source truth verification.
 
 **Evidence available:** source map, pre-test prediction, code, unit and negative tests, machine-readable result and SHA-256 evidence manifest.
 

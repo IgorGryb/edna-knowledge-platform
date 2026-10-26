@@ -8,7 +8,7 @@ Can a small, approved local corpus answer control questions with traceable citat
 
 ## Mechanism
 
-TF-IDF cosine retrieval plus a deterministic concept-expansion layer, evaluated with hit@1, hit@3, reciprocal rank, citation coverage and an abstention test.
+Term-frequency cosine retrieval with deterministic concept expansion; measured fixture ranking and summary-citation support, not neural semantic retrieval or original-source truth verification.
 
 ## Evidence chain
 
