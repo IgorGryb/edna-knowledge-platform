@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 ARCHIVE=ROOT.parents[1]
 
 def main():
-    source=ARCHIVE/'00. ARCHIVE SYSTEM/portfolio/MANAGEMENT-VALIDATION-CASES.yaml'
+    source=ARCHIVE/'standards/validation-cases.yaml'
     case=next(x for x in json.loads(source.read_text())['cases'] if x['project']=='EDNA')
     p=case['inputs']
     manual=p['manual_minutes']/60*p['hourly_cost']

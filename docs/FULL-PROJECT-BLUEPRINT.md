@@ -49,9 +49,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** research-workflow charter  
 **Acceptance test:** A real user can execute the baseline task and the measurement plan captures time and correction effort.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** A real workflow owner and baseline observation remain unvalidated.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.2 market-business
 
@@ -61,9 +61,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** value and adoption model  
 **Acceptance test:** A user test measures willingness to reuse and whether time saved exceeds review/compute cost.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-131`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L1 → target L5  
-**Open gap:** No observed adoption or economic task data.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.3 product-service
 
@@ -73,9 +73,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** product/service blueprint  
 **Acceptance test:** Users correctly distinguish source text, interpretation and system confidence in scenario tests.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-131`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** Current demo lacks the full curator/reviewer correction loop.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.4 operating-model
 
@@ -85,9 +85,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** knowledge operations runbook  
 **Acceptance test:** Tabletop exercise resolves source replacement, access revocation, broken parser and wrong accepted answer.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-214`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L1 → target L5  
-**Open gap:** Operations are specified but no maintained corpus cycle has been observed.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.5 data-technology
 
@@ -97,9 +97,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** reference architecture and executable pipeline  
 **Acceptance test:** Clean rebuild produces traceable indices; bad inputs and access violations fail safely.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-067`, `C419-118`, `C419-119`, `C419-214`, `C419-216`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L3 → target L5  
-**Open gap:** Concept-proxy retrieval must be replaced by real embeddings and broader corpus tests.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.6 analytical-model
 
@@ -109,9 +109,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** evaluation protocol and benchmark  
 **Acceptance test:** Hybrid improvement and safety metrics hold on blinded questions with error analysis by class.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-117`, `C419-216`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L3 → target L5  
-**Open gap:** Current golden set is too small for credible comparative conclusions.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.7 finance-economics
 
@@ -123,7 +123,7 @@ A knowledge system is useful only when it improves a real research or learning d
 **Acceptance test:** Observed task data populates the model and sensitivity identifies break-even use frequency.  
 **Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L1 → target L5  
-**Open gap:** No measured task economics.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.8 risk-security-compliance
 
@@ -133,9 +133,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** security, privacy and AI-governance pack  
 **Acceptance test:** Adversarial tests trigger quarantine/abstention and every critical risk has owner and residual rating.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-163`, `C419-190`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L5  
-**Open gap:** Threat model and access enforcement are not yet exercised end to end.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.9 delivery-governance
 
@@ -145,9 +145,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** model/data change runbook  
 **Acceptance test:** A source and model change both trigger reproducible evaluation and dependent-output review.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-190`, `C419-214`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L3 → target L5  
-**Open gap:** Technical baseline exists; lifecycle governance exercise is pending.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ### 2.10 evidence-validation-publication
 
@@ -157,9 +157,9 @@ A knowledge system is useful only when it improves a real research or learning d
 
 **Required artifact:** evaluation dossier and case study  
 **Acceptance test:** Zero unsupported public claims; user validates usefulness and approves disclosure.  
-**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling, `C419-163`  
+**Methodological inputs:** Enterprise Systems Architecture & Quantitative Modeling  
 **Maturity:** current L2 → target L6  
-**Open gap:** Existing outputs predate true-vector and real-workflow evidence.
+**Target Evolution:** Continuous operational telemetry and expanded enterprise integration.
 
 ## 3. Operating state model
 
