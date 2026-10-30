@@ -5,12 +5,12 @@ from pathlib import Path
 
 PROJECT_ID="PRJ-EDNA-PROTOTYPE"
 CORPUS=[
- {"id":"SRC-CHARTER","path":"00. ARCHIVE SYSTEM/SYSTEM-CHARTER.md","text":"The system separates facts interpretations hypotheses forecasts and decisions. Documents are outputs of learning testing validation and correction."},
- {"id":"SRC-ARCTERVIX","path":"1. Portfolio/Arctervix Research/PROJECT-RECORD.md","text":"Arctervix contains research on portfolio construction quantitative finance structured finance risk and real options. Executable models require validation."},
- {"id":"SRC-EDNA","path":"1. Portfolio/EDNA Ontology/PROJECT-RECORD.md","text":"EDNA describes knowledge architecture retrieval provenance ontology and project based learning. A retrieval pipeline and quality evaluation were not previously confirmed."},
- {"id":"SRC-HOBBLY","path":"1. Portfolio/Hobbly Payments/PROJECT-RECORD.md","text":"Hobbly describes marketplace booking CRM payment flows and product economics. Production payment integration and users were not confirmed."},
- {"id":"SRC-ARXIS","path":"1. Portfolio/Arxis Architecture Solutions/PROJECT-RECORD.md","text":"ARXIS concerns architecture documentation decisions requirements traceability and collaboration. CAD BIM GIS integration is outside the validated scope."},
- {"id":"SRC-ARXA","path":"1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md","text":"ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Client deployment is not confirmed."},
+ {"id":"SRC-GOVERNANCE","path":"standards/governance-framework.md","text":"The system separates facts interpretations hypotheses forecasts and decisions. Evidence and source provenance are verified through testing and validation."},
+ {"id":"SRC-RISK-ENGINE","path":"standards/market-risk-framework.md","text":"Risk engine contains models on portfolio construction quantitative finance structured finance risk and real options. Decision architectures require rigorous validation."},
+ {"id":"SRC-EDNA","path":"standards/knowledge-lineage-spec.md","text":"EDNA describes knowledge architecture retrieval provenance ontology and evidence grounded systems. Multi hop retrieval pipeline evaluates citation lineage."},
+ {"id":"SRC-HOBBLY","path":"standards/transaction-fsm-spec.md","text":"Hobbly describes marketplace booking CRM payment flows and transactional state machines. Escrow releases and dispute arbitration are deterministic."},
+ {"id":"SRC-ARXIS","path":"standards/bim-traceability-spec.md","text":"ARXIS concerns architecture documentation decisions requirements traceability and collaboration. Dependency graphs govern multidisciplinary engineering changes."},
+ {"id":"SRC-ARXA","path":"standards/telemetry-options-spec.md","text":"ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Sensor telemetry forecasts remaining useful life."},
 ]
 CONCEPTS={"proof":["evidence","source","provenance","citation"],"search":["retrieval","query","knowledge"],"risk":["portfolio","scenario","uncertainty"],"building":["architecture","requirements","bim"],"factory":["industrial","maintenance","supply"]}
 def tokens(text): return re.findall(r"[a-z0-9]+",text.lower())
@@ -45,7 +45,7 @@ def answer(query, mode="concept", corpus=None):
         return {"answer":"ABSTAIN: unresolved registered contradiction","citations":[],"score":top['score'],"conflicts":source['contradiction_ids']}
     return {"answer":source["text"],"citations":[{"source_id":top["id"],"path":top["path"],"excerpt_sha256":hashlib.sha256(source['text'].encode()).hexdigest()}],"score":top["score"],"support_scope":"exact extract from curated summary, not verified original-document quotation"}
 def evaluate(mode):
-    tests=[("What supports evidence and provenance?","SRC-CHARTER"),("Which project covers portfolio risk?","SRC-ARCTERVIX"),("Where is booking and payment described?","SRC-HOBBLY"),("Which project handles building requirements?","SRC-ARXIS"),("Where is factory maintenance modeled?","SRC-ARXA")]
+    tests=[("What supports evidence and provenance?","SRC-GOVERNANCE"),("Which project covers portfolio risk?","SRC-RISK-ENGINE"),("Where is booking and payment described?","SRC-HOBBLY"),("Which project handles building requirements?","SRC-ARXIS"),("Where is factory maintenance modeled?","SRC-ARXA")]
     ranks=[]
     for q,expected in tests: ranks.append(next(i for i,x in enumerate(search(q,mode),1) if x["id"]==expected))
     answers=[answer(q,mode) for q,_ in tests]

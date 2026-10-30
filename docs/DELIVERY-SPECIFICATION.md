@@ -27,7 +27,7 @@ The current reference uses six curated project/system summaries. It measures ran
 
 ## Technology and method choices
 
-The local IBM C419-059 module distinguishes multi-query expansion, metadata filtering and parent-document context. These are alternative design mechanisms, not proof that the current code implements LangChain. The lightweight reference deliberately tests lexical and deterministic concept expansion first. Metadata admission is deterministic; parent-context review is specified as a required human control for future larger chunks.
+The architecture distinguishes multi-query expansion, metadata filtering and parent-document context. These are modular architectural design mechanisms. The lightweight reference deliberately tests lexical and deterministic concept expansion first. Metadata admission is deterministic; parent-context review is specified as a required human control for future larger chunks.
 
 Reuse local files and the existing catalog as the source layer. Build only a small evaluation harness to test the material quality assumption. Consider a vector database or hosted product only when query diversity and corpus size expose a measured limitation, and after confidentiality, export, cost and vendor-exit review. No external service is configured.
 

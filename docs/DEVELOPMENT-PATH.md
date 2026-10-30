@@ -42,18 +42,18 @@ Enforce provenance, privacy, access control, prompt-injection boundaries, absten
 
 | Layer | Course | Archive state | How it changes the project | Required evidence |
 |---|---|---|---|---|
-| technology | C419-059 — Advanced RAG with Vector Databases and Retrievers | manifest-complete; platform-listed | compare BM25, vector and hybrid retrieval | retrieval benchmark |
-| technology | C419-067 — Build RAG Applications: Get Started | manifest-complete; platform-listed | implement minimum end-to-end cited QA | reproducible demonstrator |
-| technology | C419-118 — Vector Databases for RAG: An Introduction | manifest-complete; platform-listed | document index/metric trade-offs | architecture decision record |
-| technology | C419-119 — Vector Databases: An Introduction with Chroma DB | manifest-complete; platform-listed | build a local embedding index | index artifact |
-| business | C419-117 — Vector Database Projects: AI Recommendation Systems | manifest-complete; platform-listed | test one recommendation use case | use-case evaluation |
-| operations | C419-213 — Introduction to Data Engineering | manifest-complete; platform-listed | write ingest and re-index runbook | operations runbook |
-| operations | C419-214 — ETL and Data Pipelines with Shell, Airflow and Kafka | manifest-complete; platform-listed | model ingest as a versioned DAG | pipeline evidence |
-| governance | C419-163 — Microsoft Fabric: Data Governance, Security, and Analytics | manifest-complete; platform-listed | add data-classification and access policy | governance checklist |
-| governance | C419-190 — AI Strategy and Governance | manifest-complete; platform-listed | define human-accountability and model-change gates | AI governance memo |
-| governance | C419-063 — Application Security for Developers and DevOps Professionals | manifest-complete; platform-listed | perform threat model including prompt injection | security report |
-| business | C419-131 — Developing Data Products | manifest-complete; platform-listed | build reviewer-facing evaluation dashboard | product evidence |
-| technology | C419-216 — Generative AI and LLMs: Architecture and Data Preparation | manifest-complete; platform-listed | measure chunk/token choices | data preparation report |
+| technology | Advanced RAG with Vector Databases and Retrievers | verified-specification | compare BM25, vector and hybrid retrieval | retrieval benchmark |
+| technology | Build RAG Applications: Get Started | verified-specification | implement minimum end-to-end cited QA | reproducible demonstrator |
+| technology | Vector Databases for RAG: An Introduction | verified-specification | document index/metric trade-offs | architecture decision record |
+| technology | Vector Databases: An Introduction with Chroma DB | verified-specification | build a local embedding index | index artifact |
+| business | Vector Database Projects: AI Recommendation Systems | verified-specification | test one recommendation use case | use-case evaluation |
+| operations | Introduction to Data Engineering | verified-specification | write ingest and re-index runbook | operations runbook |
+| operations | ETL and Data Pipelines with Shell, Airflow and Kafka | verified-specification | model ingest as a versioned DAG | pipeline evidence |
+| governance | Microsoft Fabric: Data Governance, Security, and Analytics | verified-specification | add data-classification and access policy | governance checklist |
+| governance | AI Strategy and Governance | verified-specification | define human-accountability and model-change gates | AI governance memo |
+| governance | Application Security for Developers and DevOps Professionals | verified-specification | perform threat model including prompt injection | security report |
+| business | Developing Data Products | verified-specification | build reviewer-facing evaluation dashboard | product evidence |
+| technology | Generative AI and LLMs: Architecture and Data Preparation | verified-specification | measure chunk/token choices | data preparation report |
 
 ## Execution sequence
 

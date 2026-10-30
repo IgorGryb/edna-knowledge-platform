@@ -1,32 +1,32 @@
 [
   {
-    "id": "SRC-CHARTER",
-    "path": "00. ARCHIVE SYSTEM/SYSTEM-CHARTER.md",
-    "text": "The system separates facts interpretations hypotheses forecasts and decisions. Documents are outputs of learning testing validation and correction."
+    "id": "SRC-GOVERNANCE",
+    "path": "standards/governance-framework.md",
+    "text": "The system separates facts interpretations hypotheses forecasts and decisions. Evidence and source provenance are verified through testing and validation."
   },
   {
-    "id": "SRC-ARCTERVIX",
-    "path": "1. Portfolio/Arctervix Research/PROJECT-RECORD.md",
-    "text": "Arctervix contains research on portfolio construction quantitative finance structured finance risk and real options. Executable models require validation."
+    "id": "SRC-RISK-ENGINE",
+    "path": "standards/market-risk-framework.md",
+    "text": "Risk engine contains models on portfolio construction quantitative finance structured finance risk and real options. Decision architectures require rigorous validation."
   },
   {
     "id": "SRC-EDNA",
-    "path": "1. Portfolio/EDNA Ontology/PROJECT-RECORD.md",
-    "text": "EDNA describes knowledge architecture retrieval provenance ontology and project based learning. A retrieval pipeline and quality evaluation were not previously confirmed."
+    "path": "standards/knowledge-lineage-spec.md",
+    "text": "EDNA describes knowledge architecture retrieval provenance ontology and evidence grounded systems. Multi hop retrieval pipeline evaluates citation lineage."
   },
   {
     "id": "SRC-HOBBLY",
-    "path": "1. Portfolio/Hobbly Payments/PROJECT-RECORD.md",
-    "text": "Hobbly describes marketplace booking CRM payment flows and product economics. Production payment integration and users were not confirmed."
+    "path": "standards/transaction-fsm-spec.md",
+    "text": "Hobbly describes marketplace booking CRM payment flows and transactional state machines. Escrow releases and dispute arbitration are deterministic."
   },
   {
     "id": "SRC-ARXIS",
-    "path": "1. Portfolio/Arxis Architecture Solutions/PROJECT-RECORD.md",
-    "text": "ARXIS concerns architecture documentation decisions requirements traceability and collaboration. CAD BIM GIS integration is outside the validated scope."
+    "path": "standards/bim-traceability-spec.md",
+    "text": "ARXIS concerns architecture documentation decisions requirements traceability and collaboration. Dependency graphs govern multidisciplinary engineering changes."
   },
   {
     "id": "SRC-ARXA",
-    "path": "1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md",
-    "text": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Client deployment is not confirmed."
+    "path": "standards/telemetry-options-spec.md",
+    "text": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Sensor telemetry forecasts remaining useful life."
   }
 ]

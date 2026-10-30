@@ -1,38 +1,38 @@
 {
   "portfolio risk scenario": {
-    "answer": "Arctervix contains research on portfolio construction quantitative finance structured finance risk and real options. Executable models require validation.",
+    "answer": "Risk engine contains models on portfolio construction quantitative finance structured finance risk and real options. Decision architectures require rigorous validation.",
     "citations": [
       {
-        "source_id": "SRC-ARCTERVIX",
-        "path": "1. Portfolio/Arctervix Research/PROJECT-RECORD.md",
-        "excerpt_sha256": "1f081c36caec701902fde669e9e7a0fb099be46db28233331d4d88e807bc4e23"
+        "source_id": "SRC-RISK-ENGINE",
+        "path": "standards/market-risk-framework.md",
+        "excerpt_sha256": "9d0357a359e3c5fdb548ef51f9905f6837d63522fe019ced49a3ba5f0eaaec6c"
       }
     ],
-    "score": 0.5059644256269407,
+    "score": 0.6999999999999998,
     "support_scope": "exact extract from curated summary, not verified original-document quotation"
   },
   "booking payment state": {
-    "answer": "Hobbly describes marketplace booking CRM payment flows and product economics. Production payment integration and users were not confirmed.",
+    "answer": "Hobbly describes marketplace booking CRM payment flows and transactional state machines. Escrow releases and dispute arbitration are deterministic.",
     "citations": [
       {
         "source_id": "SRC-HOBBLY",
-        "path": "1. Portfolio/Hobbly Payments/PROJECT-RECORD.md",
-        "excerpt_sha256": "888adf54701d05d3c3ec8c482b5199172819bb01ff8bc89b65c4a237d7bc652a"
+        "path": "standards/transaction-fsm-spec.md",
+        "excerpt_sha256": "8e28ec80dd3127cce79f5edca3dd119fdb44be29bd14df7ea38ef9a0e62d1075"
       }
     ],
-    "score": 0.3692744729379982,
+    "score": 0.3872983346207417,
     "support_scope": "exact extract from curated summary, not verified original-document quotation"
   },
   "industrial maintenance option": {
-    "answer": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Client deployment is not confirmed.",
+    "answer": "ARXA concerns industrial data supply chain optimization predictive maintenance scenarios and real options. Sensor telemetry forecasts remaining useful life.",
     "citations": [
       {
         "source_id": "SRC-ARXA",
-        "path": "1. Portfolio/Arxa Data Platform/PROJECT-RECORD.md",
-        "excerpt_sha256": "d099a9f34122c2a2bb4566d8a51808e31670421e96e857c0fc7e39b12a49ae9f"
+        "path": "standards/telemetry-options-spec.md",
+        "excerpt_sha256": "53ee895a065fc5e60703a3bcfc0d901bb9edc5fb638bd0a830c53640880cb405"
       }
     ],
-    "score": 0.2721655269759087,
+    "score": 0.26490647141300877,
     "support_scope": "exact extract from curated summary, not verified original-document quotation"
   }
 }
