@@ -1,8 +1,11 @@
 # EDNA — Enterprise Knowledge Lineage & Provenance Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![CI](https://github.com/IgorGryb/edna-knowledge-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/IgorGryb/edna-knowledge-platform/actions)
 [![Tests](https://img.shields.io/badge/Tests-Passing%20(9%2F9)-success.svg)](tests/)
 [![Architecture](https://img.shields.io/badge/Architecture-Governed%20RAG-orange.svg)](#solution--decision-architecture)
+[![OpenAPI 3.1](https://img.shields.io/badge/OpenAPI-3.1%20Contract-green.svg)](api/openapi.yaml)
+[![ADRs](https://img.shields.io/badge/ADR-Architecture%20Decisions-purple.svg)](docs/adr/)
 [![Status](https://img.shields.io/badge/Status-R%26D%20Reference%20Architecture-informational.svg)](#research-integrity--disclaimer)
 
 > **Architectural Mission:** Eliminating black-box hallucinations in high-stakes enterprise research by binding generative AI synthesis to cryptographically verified source citations and automated contradiction detection.

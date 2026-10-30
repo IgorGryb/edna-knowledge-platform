@@ -1,0 +1,105 @@
+openapi: 3.1.0
+info:
+  title: EDNA Governed Knowledge Infrastructure API
+  description: High-assurance REST API for enterprise regulatory retrieval, cryptographic SHA-256 chunk lineage, and citation entailment verification under FDA 21 CFR Part 11 / EU AI Act standards.
+  version: 1.0.0
+  contact:
+    name: Igor Grybek
+    url: https://github.com/IgorGryb/edna-knowledge-platform
+paths:
+  /v1/documents/ingest:
+    post:
+      summary: Ingest and cryptographically hash an enterprise document chunk
+      operationId: ingestDocumentChunk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [doc_id, version, content, access_tier, jurisdiction]
+              properties:
+                doc_id:
+                  type: string
+                  example: "SOP-CLIN-042"
+                version:
+                  type: string
+                  example: "v2.1"
+                content:
+                  type: string
+                  example: "All clinical electronic signatures must conform to FDA 21 CFR Part 11 subpart B."
+                access_tier:
+                  type: string
+                  enum: [public, internal, restricted, confidential]
+                jurisdiction:
+                  type: string
+                  example: "US-FDA"
+      responses:
+        '201':
+          description: Document chunk successfully ingested and verified
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  chunk_id:
+                    type: string
+                    example: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  status:
+                    type: string
+                    example: "ACTIVE"
+                  sha256_digest:
+                    type: string
+        '409':
+          description: Duplicate or conflicting document version detected
+
+  /v1/query/governed-retrieval:
+    post:
+      summary: Execute dual-mode hybrid retrieval with entailment filtering
+      operationId: executeGovernedRetrieval
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [query, mode]
+              properties:
+                query:
+                  type: string
+                  example: "What are the audit trail requirements for electronic records?"
+                mode:
+                  type: string
+                  enum: [lexical, concept_expansion, hybrid]
+                  default: hybrid
+                max_candidates:
+                  type: integer
+                  default: 3
+      responses:
+        '200':
+          description: Ranked candidate excerpts with entailment verification scores
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  query:
+                    type: string
+                  mrr_score:
+                    type: number
+                    example: 0.90
+                  candidates:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        chunk_id:
+                          type: string
+                        excerpt:
+                          type: string
+                        entailment_score:
+                          type: number
+                          example: 0.96
+                        status:
+                          type: string
+                          enum: [VERIFIED, CONFLICT_QUARANTINED, ABSTAIN]
