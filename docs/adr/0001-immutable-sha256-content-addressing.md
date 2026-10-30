@@ -30,3 +30,4 @@ $$\text{Chunk ID} = \text{SHA256}(\text{DocID} \,\|\, \text{Version} \,\|\, \tex
 
 ### Negative Consequences / Trade-offs
 - Text normalization rules (whitespace trimming, UTF-8 canonical decomposition) must remain 100% deterministic across all platforms.
+

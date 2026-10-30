@@ -27,3 +27,4 @@ jobs:
     - name: Run Deterministic Benchmark Test Suite
       run: |
         pytest -v --tb=short
+

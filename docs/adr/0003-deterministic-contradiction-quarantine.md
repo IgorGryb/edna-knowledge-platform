@@ -23,3 +23,4 @@ When the query traversal detects documents with registered mutually exclusive re
 ### Positive Consequences
 - Guarantees zero silent merging of mutually exclusive legal and compliance obligations.
 - Fully aligns with **EU AI Act Article 14 (Human Oversight)** for high-risk AI decision systems.
+

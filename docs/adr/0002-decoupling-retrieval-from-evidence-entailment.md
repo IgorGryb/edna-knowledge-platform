@@ -32,3 +32,4 @@ The pipeline separates candidate discovery from validation:
 
 ### Negative Consequences / Trade-offs
 - Requires secondary compute pass for entailment scoring (adds ~40ms latency per query, easily accommodated in asynchronous decision memo workflows).
+
