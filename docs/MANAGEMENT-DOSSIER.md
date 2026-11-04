@@ -1,16 +1,21 @@
 # EDNA — management and operating dossier
 
-Project: EDNA Enterprise Provenance Platform. Status: Validated Proprietary Architecture & Decision Model. Core Methods: SIPOC, RACI, MoSCoW, Feasibility Analysis, Evaluation Metrics.
+Project: `PRJ-EDNA-PROTOTYPE`. Revised 2026-11-04. Status: internally specified design and bounded test; not a deployed service. Source concept: `SRC-PRJ-EDNA-DOC`. Presentation layer: `canonical-venture`. Methods: M-SIPOC, M-RACI, M-MOSCOW, M-FEASIBILITY, M-MEASURE.
 
 ## Decision and business model
 
 An operating model for governed research and knowledge reuse.
 
+**Source-root business vision (historical concept):** A project-based learning and knowledge ecosystem for learners, creators and institutions, with structured instructions and reusable materials.
+**First bounded use:** An approved local corpus: compare manual, lexical and assisted retrieval for citation support, correction handling and review cost.
 **Problem:** Research outputs become unreliable when claims lose their source, version, access restriction or correction history.
 **Customer / decision user:** Researcher, analyst and knowledge steward
-**Decision Sponsor:** Chief Knowledge Officer, Regulatory Affairs Director, Chief Risk Officer
+**Payer:** Internal research team; external willingness to pay is unvalidated
 **Value proposition (hypothesis):** Traceable answers, explicit abstention and controlled correction across dependent outputs.
 
+**Commercial model (hypothesis):** An institutional knowledge/learning workspace subscription with curation and review cost explicit; creator monetization is a later option and demand is unvalidated.
+
+**Economic drivers:** curation and ingest cost per source; search and compute cost per query; review time per accepted note; correction and reindex cost; adoption and reuse frequency.
 **Alternatives:**
 
 - Folder search: lowest setup cost, weak claim-level provenance
@@ -28,6 +33,16 @@ Market size, paid demand, channel conversion and real service delivery are not e
 | EDNA-REQ-01 | Each claim points to source passage and version | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
 | EDNA-REQ-02 | Restricted documents are excluded from outward views | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
 | EDNA-REQ-03 | Changed sources mark dependent notes stale | Reviewer checks the corresponding model/process step; records source, exception and outcome. |
+
+## Five-dimensional operating model
+
+| Dimension | Bounded design |
+|---|---|
+| Technical | Source-versioned ingestion and inspectable retrieval/review components. |
+| Business and product | Institutional learning and knowledge subscription hypothesis rooted in project-based education. |
+| Operating | Source steward, reviewer and learning owner govern intake, correction and reuse. |
+| Financial | Compare cost per accepted research/learning unit with manual workflow. |
+| Risk and governance | Enforce access, citation support, abstention and source-change review. |
 
 Should: export a decision memo and traceability view. Could: automate repetitive updates after correctness is established.
 **Will not do:** Unrestricted ingest of the entire private archive, autonomous public answers, guaranteed factual accuracy.
@@ -68,7 +83,7 @@ Roles are proposed functions, not claims of an existing staffed organization. Re
 | Evaluation | Results and limitations | Decision owner | M-MEASURE | Dashboard + PowerPoint storyboard | Decision memo | Recommendation conditional on evidence | Change owner |
 | Change management | New source, exception or decision | Change owner | M-RACI | Git + local change log | Impact and revised baseline | Dependent outputs marked stale/rechecked | Next stage owner |
 
-Tool configuration is proposed, not connected. Local Markdown/YAML is authoritative. Cloud tools require a separate data-sharing decision. See [toolchain](#).
+Tool configuration is proposed, not connected. Local Markdown/YAML is authoritative. Cloud tools require a separate data-sharing decision. See [toolchain](../../../00.%20ARCHIVE%20SYSTEM/portfolio/TOOLCHAIN-AND-HANDOFF.md).
 
 ## Financial and operating economics
 
@@ -77,6 +92,10 @@ Cost per accepted research note = analyst/reviewer time + extraction/retrieval c
 Estimates must disclose cost population, currency, horizon and baseline. Sensitivity changes one driver or a declared scenario while other external assumptions remain equal. Missing required input makes the result unavailable. No forecast is reported as a realized business result.
 
 ## Technology management and build/buy/partner
+
+**Implemented baseline:** A small local retrieval demonstration with lexical matching and concept expansion proxy; no production neural retrieval.
+**Standard reference architecture (designed, not deployed):** Document ingestion, stable source IDs, metadata and permissions, search, citations, human review, change tracking and audit trail.
+**Deferred extensions:** Production RAG, enterprise integrations, full learning marketplace and autonomous recommendations.
 
 Keep a source/assumption register, a model layer, a review layer and derived communication outputs. Stable IDs connect them. Access labels travel with the data. Maintain exportable local records and a documented exit path before selecting a hosted service.
 
@@ -118,15 +137,31 @@ Sequence: source and mandate → explicit model and handoffs → targeted valida
 
 Each slide and dashboard number must point back to this dossier and its model/run. Storyboard is not a delivered slide deck. No public publishing or external application is performed.
 
+## Qualification and method support
+
+The following are recorded program completions and candidate application routes, not proof of independent competence or implementation:
+- IBM — IBM Data Architecture (`recorded_completed`; QUAL-ibm-data-architecture).
+- IBM — IBM RAG and Agentic AI (`recorded_completed`; QUAL-ibm-rag-and-agentic-ai).
+- Microsoft — Microsoft Data Architecture for Modern Data Stacks (`recorded_completed`; QUAL-microsoft-data-architecture-for-modern-data-stacks).
+- Johns Hopkins University — Advanced Statistics for Data Science (`recorded_completed`; QUAL-advanced-statistics-for-data-science).
+- Stanford Online — From Product Strategy to Product Leadership (`recorded_completed`; QUAL-from-product-strategy-to-product-leadership).
+
+Methods are grounded only to the recorded source reading scope:
+- `M-SIPOC` — SIPOC i mapa przepływu; full local syllabus; module transcripts not read in this pass.
+- `M-RACI` — RACI i analiza interesariuszy; full local syllabus; module transcripts not read in this pass.
+- `M-MOSCOW` — MoSCoW i wymagania; full local syllabus; module transcripts not read in this pass.
+- `M-FEASIBILITY` — DFD, model stanów i build/buy; full local syllabus; module transcripts not read in this pass.
+- `M-MEASURE` — Dashboard jako wsparcie decyzji; full local syllabus; module transcripts not read in this pass.
+
 ## Provenance and authoring boundary
 
-This decision model was engineered within the Arxa Group R&D framework. All quantitative models operate on synthetic benchmark data preserving client confidentiality.
+This management model was authored with an AI agent from existing project sources, course materials and the approved user direction. It demonstrates the documented design and review process, not independent proof that the user performed every implementation step. All economic sample cases are synthetic.
 
 ## Multidimensional reinforcement and technical depth
 
 Management connects technical/domain depth to product, operating and capital decisions; it does not replace that depth. The following application mappings are candidate design hypotheses, not proven benefits or claims of independent competence.
 
-[Canonical mechanisms and evidence boundaries](#). [Full qualification records and source links](#). Program metadata has been reviewed; module-level support is not asserted for these candidate links.
+[Canonical mechanisms and evidence boundaries](../../../00.%20ARCHIVE%20SYSTEM/portfolio/REINFORCEMENT-MAP.yaml). [Full qualification records and source links](../../../00.%20ARCHIVE%20SYSTEM/portfolio/QUALIFICATION-INVENTORY.yaml). Program metadata has been reviewed; module-level support is not asserted for these candidate links.
 
 ### RF-02 — Evidence infrastructure for capital and research decisions
 

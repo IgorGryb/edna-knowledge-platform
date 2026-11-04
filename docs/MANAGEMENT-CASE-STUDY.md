@@ -12,6 +12,14 @@ An operating model for governed research and knowledge reuse.
 
 The design connects source evidence, explicit assumptions, operating ownership and model checks. Its primary output is a decision package that can be handed to an execution team.
 
+## Source vision and first use
+
+A project-based learning and knowledge ecosystem for learners, creators and institutions, with structured instructions and reusable materials.
+
+An approved local corpus: compare manual, lexical and assisted retrieval for citation support, correction handling and review cost.
+
+**Commercial hypothesis:** An institutional knowledge/learning workspace subscription with curation and review cost explicit; creator monetization is a later option and demand is unvalidated.
+
 ## Key decision
 
 Use a small versioned corpus, lexical baseline and citation review before adding semantic retrieval breadth.
@@ -31,6 +39,12 @@ Cost per accepted research note = analyst/reviewer time + extraction/retrieval c
 Testable hypothesis: Provenance and abstention improve reliability at acceptable review cost.
 
 Negative check: Replace a source version and ask an unanswerable question; invalidate dependent notes and abstain.
+
+## Technology and evidence status
+
+**Implemented:** A small local retrieval demonstration with lexical matching and concept expansion proxy; no production neural retrieval.
+**Designed standard architecture:** Document ingestion, stable source IDs, metadata and permissions, search, citations, human review, change tracking and audit trail.
+**Deferred:** Production RAG, enterprise integrations, full learning marketplace and autonomous recommendations.
 
 ## Outcome and limits
 
